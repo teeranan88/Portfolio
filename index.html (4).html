@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Hub | ธีรนันท์ ม้าสุวรรณ</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Prompt -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Prompt', sans-serif; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 via-pink-50 to-purple-50 min-h-screen text-slate-700 antialiased pb-16">
+
+    <!-- Header Section -->
+    <header class="relative overflow-hidden bg-white/80 backdrop-blur-md border-b border-pink-100 shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-6 md:py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            
+            <!-- Student Profile Info -->
+            <div class="text-center md:text-left">
+                <div class="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white text-xs px-3 py-1.5 rounded-full font-medium shadow-md mb-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 01-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+                    มหาวิทยาลัยนอร์ทกรุงเทพ (North Bangkok University)
+                </div>
+                <h1 class="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
+                    ธีรนันท์ ม้าสุวรรณ
+                </h1>
+                <p class="text-sm md:text-base text-slate-500 font-normal mt-1">
+                    Teeranan Masuwan — Interactive Web Showcase & Academic Projects
+                </p>
+            </div>
+
+            <!-- Quick Badge -->
+            <div class="bg-white px-5 py-3 rounded-2xl shadow-lg border border-purple-100 text-center flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center font-bold text-lg">
+                    7
+                </div>
+                <div class="text-left">
+                    <p class="text-xs text-slate-400 font-medium">รวมผลงานทั้งหมด</p>
+                    <p class="text-sm font-bold text-slate-800">7 Projects Submitted</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-6xl mx-auto px-6 mt-10">
+
+        <!-- Section Title -->
+        <div class="mb-8 text-center md:text-left">
+            <h2 class="text-2xl font-bold text-slate-800 flex items-center justify-center md:justify-start gap-2">
+                <span class="w-3 h-8 bg-gradient-to-b from-pink-500 to-purple-600 rounded-full inline-block"></span>
+                คลังรวมผลงานเว็บไซต์ (Project Collection)
+            </h2>
+            <p class="text-slate-500 text-sm mt-1">คลิกที่ปุ่มเพื่อเข้าชมเว็บไซต์และระบบงานจริงแต่ละชิ้น</p>
+        </div>
+        
+        <!-- Cards Grid Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Card 1: CRAFT YOUR TASTE -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-amber-500 to-amber-600"></div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-amber-50 text-amber-600 border border-amber-100">Google Sites</span>
+                        <span class="text-slate-300 text-xs font-mono">01</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 group-hover:text-amber-600 transition-colors">- CRAFT YOUR TASTE -</h3>
+                    <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+                        สัมผัสสุนทรียภาพแห่งการดื่มเบียร์ เว็บไซต์นำเสนอเรื่องราว ศิลปะการหมัก และรสชาติอันเป็นเอกลักษณ์ของคราฟต์เบียร์
+                    </p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://sites.google.com/northbkk.ac.th/teeranan02/home" target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-medium py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        เข้าชมเว็บไซต์
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2: Google Site Portfolio -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-pink-500 to-rose-500"></div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-pink-50 text-pink-600 border border-pink-100">Google Sites</span>
+                        <span class="text-slate-300 text-xs font-mono">02</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 group-hover:text-pink-600 transition-colors">Portfolio Site</h3>
+                    <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+                        แฟ้มสะสมผลงานส่วนตัว รวบรวมประวัติ ผลงานโดดเด่น และสรุปภาพรวมการเรียนรู้ตลอดหลักสูตร
+                    </p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://sites.google.com/northbkk.ac.th/teeranan/portfolio" target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white font-medium py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        เข้าชมเว็บไซต์
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3: BMI App -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-emerald-400 to-teal-500"></div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-50 text-emerald-600 border border-emerald-100">Web App</span>
+                        <span class="text-slate-300 text-xs font-mono">03</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 group-hover:text-emerald-600 transition-colors">BMI Calculator</h3>
+                    <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+                        เว็บแอปพลิเคชันคำนวณดัชนีมวลกาย ประมวลผลค่าสุขภาพและประเมินเกณฑ์สุขภาพแบบเรียลไทม์
+                    </p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://teeranan88.github.io/bmi01/" target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-medium py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        เปิดใช้งานแอป
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 4: Open House -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-orange-400 to-red-500"></div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-orange-50 text-orange-600 border border-orange-100">Web Design</span>
+                        <span class="text-slate-300 text-xs font-mono">04</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 group-hover:text-orange-600 transition-colors">Open House Project</h3>
+                    <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+                        เว็บไซต์ประชาสัมพันธ์กิจกรรม Open House นำเสนอไฮไลต์สาขาวิชาและข้อมูลการเปิดรับสมัคร
+                    </p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://teeranan88.github.io/openhouse/" target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-medium py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        เข้าชมเว็บไซต์
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 5: Web Game -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-purple-500 to-fuchsia-500"></div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-purple-50 text-purple-600 border border-purple-100">Interactive Game</span>
+                        <span class="text-slate-300 text-xs font-mono">05</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 group-hover:text-purple-600 transition-colors">Web Game Project</h3>
+                    <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+                        มินิเกมบนเว็บไซต์ พัฒนาโดยเน้นตรรกะการควบคุม JavaScript และการตอบสนองผู้เล่นแบบ Interactive
+                    </p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://teeranan88.github.io/game00/" target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-fuchsia-600 hover:from-purple-600 hover:to-fuchsia-700 text-white font-medium py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        ทดลองเล่นเกม
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 6: Web ร้านอาหาร -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="h-2 bg-gradient-to-r from-blue-500 to-indigo-500"></div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-blue-50 text-blue-600 border border-blue-100">Web Design</span>
+                        <span class="text-slate-300 text-xs font-mono">06</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 group-hover:text-blue-600 transition-colors">Web ร้านอาหาร</h3>
+                    <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+                        เว็บไซต์นำเสนอร้านอาหาร ดีไซน์เมนูแนะนำ บรรยากาศร้าน และการบริการลูกค้าอย่างเป็นเอกลักษณ์
+                    </p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://teeranan88.github.io/-00/" target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-medium py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        เข้าชมเว็บไซต์
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 7: Animate Slider Gallery -->
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group md:col-span-2 lg:col-span-1">
+                <div class="h-2 bg-gradient-to-r from-indigo-500 to-violet-600"></div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-50 text-indigo-600 border border-indigo-100">Interactive Gallery</span>
+                        <span class="text-slate-300 text-xs font-mono">07</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 group-hover:text-indigo-600 transition-colors">Animate Slider Gallery</h3>
+                    <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+                        แกลเลอรีภาพเคลื่อนไหวแบบสไลเดอร์ โดดเด่นด้วยการสลับรูปภาพและเอฟเฟกต์แอนิเมชันสุดทันสมัย
+                    </p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://teeranan88.github.io/-13/" target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white font-medium py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        เข้าชมชิ้นงาน
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-20 text-center text-slate-400 text-sm">
+        <div class="max-w-6xl mx-auto px-6 pt-8 border-t border-purple-100/60">
+            <p class="font-medium text-slate-600">นางสาวธีรนันท์ ม้าสุวรรณ (Teeranan Masuwan)</p>
+            <p class="text-xs text-slate-400 mt-1">มหาวิทยาลัยนอร์ทกรุงเทพ • North Bangkok University</p>
+        </div>
+    </footer>
+
+</body>
+</html>
